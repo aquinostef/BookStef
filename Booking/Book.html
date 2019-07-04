@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 200px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+        <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+		.myLink {display: none}
+		</style>
+		<body class="w3-light-grey">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Airline</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+<body>
+        <div class="w3-bar w3-red w3-border-bottom w3-xlarge">
+                <h1 style="color:white; text-align: center"> <b><i> Airlines </i></h1></b>
+        </div>
+<div class="w3-container">
+    <div class="w3-panel w3-padding-16 w3-white w3-card" style="text-align: center">
+        <h1 style="color:red;"><b>MNL (Manila) <i class="fa fa-plane"></i> CEB (Cebu)</h1></b>
+        <div class="row">
+            <div class="column" style="background-color:white;">
+              <h2>Departure Date</h2>
+              <h3>Sat 01 June</h3>
+              <h3>18:50</h3>
+            </div>
+            <div class="column" style="background-color:white;">
+                <h2>Arrival Date</h2>
+                <h3>Sat 01 June</h3>
+                <h3>22:50</h3>
+            </div>
+            <div class="column" style="background-color:white;">
+                <h2>4h 5m</h2>
+                <h2>Z2 43J</h2>
+            </div>
+            <div class="column">
+                <h1>PHP 7,950.00</h1>
+            </div>
+          </div>
+          <div class="w3-container">
+            <div class="w3-panel w3-padding-16 w3-white w3-opacity w3-card w3-hover-opacity-off" style="text-align: left">
+                
+                <img src="https://img.icons8.com/office/80/000000/flight-seat.png">
+                <img src="data:image/png;base64,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">
+                <img src="https://img.icons8.com/cotton/80/000000/luggage.png">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAGcAAABnABqSUrGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAATJSURBVHic7ZxPaBxVHIC/30vsbtJW06NYKT16UKtItQZLqU0QFRTE3qVCimA2CcSUWnGxtGBpMgm5mELBg6ecRMG2KkLFGq0iouJNlNB6stq1Zje73Z2fhyYlSXeSmX0z22bnfbd97/f+zMd7O/PmzwOHw7GOkSQqLZ08uY329oOo3i8i32Q6Oqakr+96Em0Fofn8hnJX10FV3QnMYsx7HbncbNztxC6wMjr6cM2YL4G7lyRfyBYKeySfr8bdXj10auqu+WLxPLBrSXLBqD6VGRr6Oc62TJyVAdRERlkuD6B7vqvrlbjbCqI8N3eA5fIA7vFv9C1WYheIyOMBOSsPKDE0uA9PxN1W/AJhU71EUa2bngQCGwOyNsfdVhICU4UTaElDZ+Hy2NiDvsgwIj2obiZ4ytzpzAH/Ap8bY05kcrlfolYQSaCqyvz4+CHgHaA9amN3OFUVOdKRy50QEQ1bqC1KC4e6ut4EjtGaU98I7KvOzMwfO3fuq7CFQo/AudHRR4wx39Oa8pZSM8bsCDudQ8swxrwWJX4d0+b7/uthg6MI6WmgM+sT1dDHGkXgvQ10ZX0icl/Y0CgCNzTQlfVK6GNNw39aojiBljiBljiBljiBljiBljiBljiBlsRxS+qSwEwM9TQdvfGcZqtNHdYCBWayg4P7beu5Hcx73rTCyzZ1uClsiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoiRNoSaoFKpQCsq6FrSPVAkXku4Cs0O8HplpgxvdPAxdWJBeMMW+ErSPVAmVoqJQtFPYK9AOnEDmOMQ9FeVe61d5zjozk8xVgstHyqR6BceAEWpL6KbwWpcnJ7VSrh4FnBTqA31E9ndm6dUr27685gatQ9LxuqVY/VtgCsPDxyBZEHi1dvtyr09MvOYEBFD1vl8AneuunuwAIvFC+dKnP/QfW4T/P2yFwlgB5NzHmVSewDhsrld9QXfNaUOEBJ7AOMjJyLXv9+jOofr1G6FUncIGi53UXPe/mEi6kxDNOIAtnWzgj8G5pfPzIYvoaEv9CJJ96gYvyWNwOQPVoXYnLbzoUVOT5jlxuNtUCS563V+BTVu6loHp0fmzsxOJPGRm5lu3s7AW+AP6uwZ7OgYFvIcVLuaLndQMfAp318lVkeNlI7OsrZiuVF33o2TQ4+ONieioFBo68ldQZiRsHB39YGpI6gWuNvJWoyHBxfHw4KD/KUq5Cna8YFXaXPO+zCPU0jMA/wPlMtfq+DA/PRS1/ywkjHAV8//wqfQpHyfP+ALZFaDhJLmbb2nZLf385bIFG5alqb+fQ0MWggChTuCmjLCQ7y9XqgbDBScmDKHsmtLV5QC1CBxJFjXksTFyS8iCCwEx//6/A2xE6kSyqf64VkrQ8iHgWzg4MHAcOA03ZBzAIhasYc2q1mGbIA5utnyCHyG5gO817NFAGZoxILjMw8FNQULPkQUJbgN5OShMTT+P7HxHyOm+BKzXYt3SFEZaWEthsedBCAosTE0+K75+lCdN2KS2zlJNa7QOaLA9aSCAi2yNExyIPWklgeK7UYE8c8iB9Aq1OGPVIk8DY5UFrCVzt9lZBRZ6LWx60kEBVfYsb9yxXMquqvYvPMOLmfwJXtod8AAxoAAAAAElFTkSuQmCC">
+                <h1 style="text-align: right"> + PHP 1,093.00 </h1>
+            </div>
+            <div class="form-btn">
+                    <a href="Guest.html" type="button" formaction="Guest.html" class="w3-button w3-red w3-margin-top">Confirm</a>
+                </div>
+          </div>
+</body>
+</html>
